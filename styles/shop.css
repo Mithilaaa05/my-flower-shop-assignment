@@ -3,6 +3,7 @@ main{
     height: 4867px;
     background-color: #FFF;
 }
+
 .header1{
     background-color:#E554731A;
     width: 1920px;
@@ -139,4 +140,69 @@ main{
     font-weight: bold;
     font-size: 24px;
 
+}
+
+
+.banner2{
+
+    display: flex;
+    flex-shrink: 0;
+    background-color: #E554730D;
+    border-radius: 8px;
+    display: flex;
+    width: 1920px;
+    align-items: center;
+    padding: 120px;
+
+}
+.off-color{
+    color: #E55473;
+}
+.banner2 .red-roses{
+    width: 318px;
+    height: 420px;
+    position: relative;
+    left: 200px;
+    
+}
+.banner2 .deals{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+    left: 300px;
+}
+.banner2 .banner-para2{
+    padding: 0px;
+    color:#27272799;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    flex-direction: column;
+    flex-shrink: 0;
+    left: 260px;
+    bottom: 20px;
+    display: flex;
+
+}
+.banner2 .button-primary{
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    background: #E54373;
+    border:0;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    left: 400px;
+    top: 10px;
 }

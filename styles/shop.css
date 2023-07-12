@@ -14,6 +14,7 @@ main{
     padding: 20px 43px 20px 120px;
     display: flex;
     align-items: center;
+    width: 100%;
     
 }
 .banner .banner-title{
@@ -52,13 +53,16 @@ main{
 .banner .front-picture{
     width: 625px;
     height: 830px;
-    padding-left: 150px;
+    padding-left: 110px;
+
 }
 .about{
 
     text-align: center;
     font-style: normal;
-    padding: 110px;
+    padding: 120px;
+    position: relative;
+    left: 190px;
 
 }
 .about .section-title{
@@ -189,7 +193,7 @@ main{
     flex-shrink: 0;
     left: 260px;
     bottom: 20px;
-    display: flex;
+ 
 
 }
 .banner2 .button-primary{
@@ -205,4 +209,151 @@ main{
     position: relative;
     left: 400px;
     top: 10px;
+}
+.instagram1{
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.instagram .ig-logo{ 
+    position: relative;
+    top: 60px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.instagram1 .ig-para{
+
+    position: relative;
+    left: 620px;
+    top: 45px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+
+}
+.pictures-row2{
+    gap: 30px;
+    position: relative;
+    left: 350px;
+    top: 110px;
+    display: flex;
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+
+}
+.searchbar1{
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+
+.searchbar1 .form1{
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+.img11{
+    position: relative;
+    top: 380px;
+    left: 1070px;
+
+    flex-shrink: 0;
+    border-radius: 8px;
+  
+}
+
+
+.deals2{
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 290px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.typing-email{
+    text-align: left;
+    display: flex;
+    position: relative;
+    top: 300px;
+    width: 500px;
+    height: 55px;
+    flex-shrink: 0;
+
+    border-radius: 0px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.coupon{
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 280px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.last-button{
+    width: 150px;
+    height: 55px;
+    flex-shrink: 0;
+    text-align: justify;
+    display: flex;
+    position: relative;
+    top: 240px;
+    left: 550px;
+    border-radius: 0px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
 }

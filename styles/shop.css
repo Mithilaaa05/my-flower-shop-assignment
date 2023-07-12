@@ -110,3 +110,33 @@ main{
     background-color:#477D1126 ;
     border-radius: 300px 300px 0px 0px;
 }
+
+.pic01{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    padding-top: 18px;
+    font-weight: bold;
+    font-size: 24px;
+
+
+}
+.pic02{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 24px;
+
+
+}
+.pic03{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+
+}

@@ -542,3 +542,61 @@ main{
 
 }
 
+.footer-item{
+    position: relative;
+    top: 1300px;
+    left:0px;
+    text-align: center;
+    width: 1920px;
+    height: 340px;
+    color: white;
+    background-color: #000000;
+
+
+}
+.shop-name{
+    color: #E55473;
+}
+
+.section-title{
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    position: relative;
+    top: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.end-para{
+    position: relative;
+    top: 50px;
+    left: 660px;
+    text-align: center;
+    font-family: Lato;
+    display: flex;
+    width: 625px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.end-para1{
+    position: relative;
+    top: 70px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
